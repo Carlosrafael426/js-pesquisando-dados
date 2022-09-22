@@ -1,5 +1,5 @@
 function procuraSobremesa(valorDoInput) {
-
-    /* Desenvolva sua lógica a partir daqui */
-    return listaDeSobremesas.filter((sobremesa) => sobremesa.nome.includes(valorDoInput))
+    /* Desenvolva sua lógica a partir aqui */
+    
+    return /* É necessário retornar uma lista de produtos */
 }

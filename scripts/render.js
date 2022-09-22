@@ -33,7 +33,11 @@ function aoSubmeter(event) {
 
     const valorDoInput = inputTag.value
 
-    renderizaSobremesas(procuraSobremesa(valorDoInput))
+    if(procuraSobremesa(valorDoInput)) {
+        renderizaSobremesas(procuraSobremesa(valorDoInput))
+    } else {
+        console.error("Retorno da função inválido")
+    }
 }
 
 renderizaSobremesas(listaDeSobremesas)
